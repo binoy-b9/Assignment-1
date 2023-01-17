@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    padding: 0;
+    
     font-family: work sans-serif;
 }
 .banner{
@@ -7,8 +9,9 @@
     background-position: absolute;
     width: 1600px;
     height: 809px;
-    left: 1600px;
+    
     top: 0px;
+    
 }
 
 .banner-heading{
@@ -66,4 +69,216 @@ color: #FFFFFF;
 .main-info{
     align-content: right;
     margin-right: 230px;
+}
+
+.failures{
+
+    display: flex;
+    position: absolute;
+    width: 1072px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.failure-heading{
+    
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+
+
+
+color: #151414;
+}
+.failure-dscription{
+    
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+margin-top: 30px;
+margin-bottom: 40px;
+
+}
+.plan-heading{
+    
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+
+
+color: #151414;
+padding-left: 500px;
+padding-right: 300px;
+margin-bottom: 80px;
+
+}
+
+.about-plan{
+    display: flex;
+    justify-content: space-between;
+}
+.plan-logo{
+    
+width: 92.96px;
+height: 92.96px;
+
+}
+.plan-name{
+    
+
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+
+
+/* Dark 01 */
+
+color: #151414;
+}
+.plan-wish{
+    
+
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+
+
+/* Dark 03 */
+
+color: #737272;
+}
+.plans{
+    position: absolute;
+width: 1141px;
+height: 299.96px;
+left: 230px;
+top: 1790px;
+
+
+}
+.contact{
+    position: absolute;
+width: 1140px;
+height: 300px;
+left: 230px;
+top: 2216.3px;
+background-image: url('../images/watch.png'),url('../images/gradient2.png');
+
+
+
+border-radius: 8px;
+
+
+}
+.contact-quote{
+    
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+
+color: #FFFFFF;
+
+
+}
+.contact-button-two{
+    position: absolute;
+width: 160px;
+height: 64px;
+border-radius: 5px;
+margin-top: 24px;
+
+
+    
+    
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #F15B22;
+}
+.contact-container{
+    padding-top: 60px;
+    padding-right: 600px;
+    padding-bottom: 60px;
+    padding-left: 64px;
+
+    
+    
+}
+
+.last-part{
+    position: absolute;
+    width: 1600px;
+    height: 577px;
+    
+    color: #151414;
+    border-color: #FFFFFF;
+    
+    
+    display: flex;
+    background: #151414;
+    
+    padding: 130px 230px;
+    left: 0px;
+    top: 2700px;
+}
+#last-info{
+    color: #FFFFFF;
+}
+.left{
+    position: absolute;
+width: 485px;
+height: 317px;
+padding: 130px 230px 900px;
+}
+.right{
+    position: absolute;
+width: 325px;
+height: 204px;
+padding: 190px 230px 243px 1046px;
+}
+.subscribe-button{
+    
+    position: absolute;
+    width: 98.06px;
+    height: 24px;
+    
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #F15B22;
+    
+}
+#last-info-heading{
+    font-style: normal;
+font-weight: 700;
+font-size: 45px;
 }
